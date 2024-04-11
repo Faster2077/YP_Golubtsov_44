@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
+
+body {
+    width: 1920px;margin-left: auto;margin-right: auto;
+}
+
+/* header */
+.header__back {
+    margin-top: -8px;
+}
+
+.logo {
+    font-size: 36px;
+    color: #ffffff;
+    margin-top: -350px;
+    margin-left: 360px;
+    font-family: "Comfortaa", sans-serif;
+}
+.header__txt {
+    display: flex;
+    margin-left: 800px;
+    margin-top: -85px;
+    font-family: "Comfortaa", sans-serif;
+}
+.header__txt a + a {
+    margin-left: 120px;
+}
+.Home {
+    font-size: 20px;
+    color: #ffffff;
+    position: absolute;
+}
+.Pricing {
+    font-size: 20px;
+    color: #ffffff;
+    position: absolute;
+}
+.Contact {
+    font-size: 20px;
+    color: #ffffff;
+    position: absolute;
+}
+.header__button {
+    display: flex;
+    margin-left: 1350px;
+    font-family: "Comfortaa", sans-serif;
+    margin-top: 15px;
+}
+.header__button a + a{
+    margin-left: 80px;
+}
+.LOGIN {
+    font-size: 13.42px;
+    color: #ffffff;
+    text-decoration: none;
+    position: absolute;
+}
+.SIGN__UP {
+    background-color: white;
+    width: 100px;
+    height: 15px;
+    text-align: center;
+    border-radius: 30px;
+    font-family: "Comfortaa", sans-serif;
+    font-size: 13.42px;
+    position: absolute;
+    margin-top: 5px;
+    color: #BB6DF3;
+    padding: 10px;
+}
+
+/* section_1 */
+
+.section_1__back {
+    margin-top: 220px;
+}
+.section_1__back2 {
+    margin-top: -700px;
+}
+.section_1__back3 {
+    margin-left: 1740px;
+    margin-top: -500px;
+}
+.section_1__back4 {
+    margin-left: 1740px;
+    margin-top: -680px;
+}
+
+.home__info {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: -800px;
+}
+
+.instal_1 {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 150px;
+}
+.instal__txt {
+    margin-left: 400px;
+    font-size: 20px;
+    font-family: "Comfortaa", sans-serif;
+    line-height: 30px;
+
+}
+.instal_2345678 {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 80px;
+}
+
+/* section_2 */
+
+.section_2__back {
+    margin-top: 400px;
+}
+.section_2__back2 {
+    margin-top: -150px;
+}
+.section_2__back3 {
+    margin-left: 1625px;
+    margin-top: -215px;
+}
+.section_2__back4 {
+    margin-left: 1650px;
+    margin-top: -235px;
+}
+.section_2__back5 {
+    margin-left: 1750px;
+    margin-top: -110px;
+}
+
+.section_2__txt {
+    display: flex;
+    font-family: "Comfortaa", sans-serif;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.txt_1 {
+    font-size: 42px;
+    color: #425B8C;
+    margin-top: -200px;
+    margin-left: 200px;
+}
+.txt_2 {
+    font-size: 24px;
+    color: #718DC2;
+    margin-left: -315px;
+    margin-top: -150px;
+}
+.txt_3 {
+    font-size: 42px;
+    color: #425B8C;
+    margin-top: -200px;
+    margin-left: 300px;
+}
+.txt_4 {
+    font-size: 24px;
+    color: #718DC2;
+    margin-left: -250px;
+    margin-top: -150px;
+}
+.img_1 {
+    margin-top: -170px;
+    margin-left: 370px;
+}
+.img_2 {
+    margin-top: -95px;
+    margin-left: 1080px;
+}
+
+
+
+
+/*Footer*/
+
+.bgfoot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    width: 1245px;
+    height: 100px;
+    margin-left: 320px;
+    margin-top: 900px;
+}
+
+.foot3{
+    margin-top: -250px;
+    margin-left: 300px;
+}
+
+.fot13{
+    font-family: "Comfortaa", sans-serif;
+    color: white;
+    font-size: 50px;
+}
+
+.fot14{
+    line-height: 25px;
+    font-family: "Comfortaa", sans-serif;
+    color: white;
+    font-size: 17px;
+}
+
+.fot15{
+    margin-left: 750px;
+    margin-top: -345px;
+    font-family: "Comfortaa", sans-serif;
+    color: white;
+    font-size: 50px;
+}
+
+.fot16{
+    margin-left: 750px;
+    font-family: "Comfortaa", sans-serif;
+    color: white;
+    font-size: 17px;
+    text-decoration: underline;
+}
+
+.fot17{
+    margin-left: 1250px;
+    margin-top: -330px;
+    font-family: "Comfortaa", sans-serif;
+    color: white;
+    font-size: 50px;
+}
+
+.fot18{
+    margin-left: 1250px;
+    font-family: "Comfortaa", sans-serif;
+    color: white;
+    font-size: 17px;
+}
+
+.fot19{
+    margin-top: 270px;
+    margin-left: 650px;
+    font-family: "Comfortaa", sans-serif;
+    color: white;
+    font-size: 19px;
+}

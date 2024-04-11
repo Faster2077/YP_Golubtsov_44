@@ -1,0 +1,543 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+
+
+
+/* header */
+header {
+    font-family: "Karla", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 0;
+    background-color: #ffffff;
+    width: 1440px;
+    height: 80px;
+}
+
+.contener__header {
+    width: 1075px;
+    height: 80px; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 120px;
+}
+
+.logo img {
+    margin-right: 30px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    font-size: 12px;
+    font-family: "Karla", sans-serif;
+}
+
+nav li+li {
+    margin-left: 30px;
+}
+
+.img__cart img {
+    margin-right: 100px;
+    margin-top: 5px;
+}
+
+/* section 1 */
+
+.main {
+    width: 1440px;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 15px;
+    background-color: #ffffff;
+}
+
+/* section2_text */
+
+.section2_text {
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+.section2__txt {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 100px;
+
+}
+.txt1 {
+    font-size: 28px;
+    font-weight: bold;
+    font-family: "Karla", sans-serif;
+}
+.txt2 {
+    font-size: 16px;
+    font-family: 'test';
+    font-family: "Karla", sans-serif;
+}
+.txt3 {
+    font-size: 15px;
+    margin-top: 10px;
+    color: #A25F4B;
+    font-family: "Karla", sans-serif;
+}
+.txt4 {
+    font-size: 12px;
+    margin-top: 120px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: "Karla", sans-serif;
+    letter-spacing: 2px;
+}
+
+/* section 2 img */
+
+.pink__img {
+    display: flex;
+    margin-left: 260px;
+    margin-top: 100px;
+}
+
+.txt__pink {
+    margin-top: 35px;
+    margin-left: 395px;
+}
+
+.pink {
+    font-size: 20px;
+    font-family: "Karla", sans-serif;
+    color: #1D1F2E;
+}
+
+.USD {
+    font-family: "Karla", sans-serif;
+    font-size: 16px;
+    margin-left: 57px;
+    color: #1D1F2E;
+    opacity: 0.7;
+}
+
+.golden__img {
+    display: flex;
+    margin-left: 750px;
+    margin-top: -653px;
+}
+.txt__golden {
+    margin-top: 38px;
+    margin-left: 880px;
+    font-family: "Karla", sans-serif;
+}
+.golden {
+    font-size: 20px;
+    color: #1D1F2E;
+}
+
+.USD__red {
+    margin-left: 40px;
+    font-size: 19px;
+    color: #A25F4B;
+}
+
+.USD__line {
+    margin-left: 110px;
+    margin-top: -38px;
+    font-size: 16px;
+    opacity: 0.7;
+    color: #1D1F2E;
+}
+
+.more {
+    text-align: center;
+    margin-top: 150px;
+    font-size: 12px;
+    font-family: "Karla", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.RED-img {
+    margin-left: 265px;
+    margin-top: 280px;
+}
+.RED__txt {
+    font-family: "Karla", sans-serif;
+    margin-left: 350px;
+}
+.red__cup {
+    font-size: 20px;
+    color: #1D1F2E
+}
+.price__red {
+    font-size: 19px;
+    margin-left: -10px;
+    color: #A25F4B;
+}
+.price-line__red {
+    font-size: 16px;
+    margin-left: 65px;
+    margin-top: -39px;
+    color: #1D1F2E;
+    opacity: 0.7;
+}
+
+.BLACK-img {
+    margin-left: 585px;
+    margin-top: -485px;
+}
+.BLACK__txt {
+    font-family: "Karla", sans-serif;
+    margin-left: 665px;
+}
+.black__cup {
+    font-size: 20px;
+    color: #1D1F2E
+}
+.price__black {
+    font-size: 19px;
+    margin-left: -10px;
+    color: #A25F4B;
+}
+.price-line__black {
+    font-size: 16px;
+    margin-left: 65px;
+    margin-top: -39px;
+    color: #1D1F2E;
+    opacity: 0.7;
+}
+
+.B_W-img {
+    margin-left: 905px;
+    margin-top: -485px;
+}
+
+.B_W__txt {
+    font-family: "Karla", sans-serif;
+    margin-left: 955px;
+}
+.B_W__mug {
+    font-size: 20px;
+    color: #1D1F2E
+}
+.price__B_W {
+    font-size: 16px;
+    margin-left: 55px;
+    color: #1D1F2E;
+    opacity: 0.7;
+}
+
+.Winter-img {
+    margin-left: 265px;
+    margin-top: 50px;
+}
+.Winter__txt {
+    font-family: "Karla", sans-serif;
+    margin-left: 340px;
+}
+.Winter__mug {
+    font-size: 20px;
+    color: #1D1F2E
+}
+.price__Winter {
+    font-size: 16px;
+    margin-left: 30px;
+    color: #1D1F2E;
+    opacity: 0.7;
+}
+
+.Ceramic-img {
+    margin-left: 585px;
+    margin-top: -482px;
+}
+.Ceramic__txt {
+    font-family: "Karla", sans-serif;
+    margin-left: 675px;
+}
+.Ceramic__tea {
+    font-size: 20px;
+    color: #1D1F2E
+}
+.price__Ceramic {
+    font-size: 16px;
+    margin-left: 8px;
+    color: #1D1F2E;
+    opacity: 0.7;
+}
+
+.Handle-img {
+    margin-left: 905px;
+    margin-top: -482px;
+}
+.Handle__txt {
+    font-family: "Karla", sans-serif;
+    margin-left: 970px;
+}
+.Handle__cup {
+    font-size: 20px;
+    color: #1D1F2E
+}
+.price__Handle {
+    font-size: 16px;
+    margin-left: 40px;
+    color: #1D1F2E;
+    opacity: 0.7;
+}
+
+.Espresso-img {
+    margin-left: 265px;
+    margin-top: 50px;
+}
+.Espresso__txt {
+    font-family: "Karla", sans-serif;
+    margin-left: 300px;
+}
+.Espresso__cup {
+    font-size: 20px;
+    color: #1D1F2E
+}
+.price__Espresso {
+    font-size: 16px;
+    margin-left: 70px;
+    color: #1D1F2E;
+    opacity: 0.7;
+}
+
+.Premium-img {
+    margin-left: 585px;
+    margin-top: -482px;
+}
+.Premium__txt {
+    font-family: "Karla", sans-serif;
+    margin-left: 630px;
+}
+.Premium__ceramic {
+    font-size: 20px;
+    color: #1D1F2E
+}
+.price__Premium {
+    font-size: 16px;
+    margin-left: 55px;
+    color: #1D1F2E;
+    opacity: 0.7;
+}
+
+.Summer-img {
+    margin-left: 905px;
+    margin-top: -482px;
+}
+.Summer__txt {
+    font-family: "Karla", sans-serif;
+    margin-left: 955px;
+}
+.Summer__cup {
+    font-size: 20px;
+    color: #1D1F2E
+}
+.price__Summer {
+    font-size: 16px;
+    margin-left: 50px;
+    color: #1D1F2E;
+    opacity: 0.7;
+}
+
+.Coffee__Magazine-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+/* section2__line */
+
+.line1 {
+    border-top: 2px solid #ffffff;
+    opacity: 0.4;
+    width: 9%;
+    margin-left: 662px;
+    margin-top: -1120px;
+}
+
+.line2 {
+    border-top: 2px solid #ffffff;
+    width: 35px;
+    margin-top: 179px;
+    margin-left: 620px;
+}
+
+.line3 {
+    border-top: 2px solid #ffffff;
+    width: 35px;
+    margin-top: -2px;
+    margin-left: 800px;
+}
+
+/* section 3 */
+
+.sec3-img {
+    margin-top: 1150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* section 4 */
+
+.Health__Check-img {
+    margin-left: 265px;
+    margin-top: 180px;
+}
+.Health__Check-txt {
+    font-family: "Karla", sans-serif;
+    margin-left: 265px;
+}
+.Health__Check-1 {
+    font-size: 20px;
+    color: #1D1F2E
+}
+.Health__Check-2 {
+    font-size: 16px;
+    color: #1D1F2E;
+    opacity: 0.7;
+}
+.Health__Check-3 {
+    font-size: 12px;
+    color: #1D1F2E;
+}
+
+.Long__cup-img {
+    margin-left: 585px;
+    margin-top: -513px;
+}
+.Long__cup-txt {
+    font-family: "Karla", sans-serif;
+    margin-left: 585px;
+}
+.Long__cup-1 {
+    font-size: 20px;
+    color: #1D1F2E
+}
+.Long__cup-2 {
+    font-size: 16px;
+    color: #1D1F2E;
+    opacity: 0.7;
+}
+.Long__cup-3 {
+    font-size: 12px;
+    color: #1D1F2E;
+}
+
+.Coffee__drinkers-img {
+    margin-left: 905px;
+    margin-top: -472px;
+}
+.Coffee__drinkers-txt {
+    font-family: "Karla", sans-serif;
+    margin-left: 905px;
+}
+.Coffee__drinkers-1 {
+    font-size: 20px;
+    color: #1D1F2E
+}
+.Coffee__drinkers-2 {
+    font-size: 16px;
+    color: #1D1F2E;
+    opacity: 0.7;
+}
+.Coffee__drinkers-3 {
+    font-size: 12px;
+    color: #1D1F2E;
+}
+
+/* section 5 */
+
+.sec-5__img {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* footer */
+
+.img1 {
+    margin-left: 200px;
+    margin-top: 150px;
+}
+.footer__txt1 {
+    font-family: "Karla", sans-serif;
+    margin-left: 200px;
+    margin-top: 0px;
+    font-size: 14px;
+    color: #1D1F2E;
+}
+.Delivering {
+    font-size: 14px;
+    opacity: 0.7;
+}
+.Style {
+    font-size: 14px;
+    margin-top: 100px;
+    opacity: 0.4;
+}
+
+.main__3p {
+    display: flex;
+    margin-left: 620px;
+    margin-top: -213px;
+    font-family: "Karla", sans-serif;
+    text-transform: uppercase;
+    font-size: 12px;
+    color: #1D1F2E;
+}
+.MENU {
+}
+.Follow__Us {
+    margin-left: 100px;
+}
+.Contact__Us {
+    margin-left: 100px;
+}
+
+.li1 {
+    margin-left: 550px;
+    font-family: "Karla", sans-serif;
+    opacity: 0.7;
+    margin-top: -25px;
+}
+.li1 ul {
+    display: block;
+    font-family: "Karla", sans-serif;
+}
+
+.li2 {
+    margin-left: 683px;
+    margin-top: -155px;
+    font-family: "Karla", sans-serif;
+    opacity: 0.7;
+}
+.li2 ul {
+    display: block;
+    font-family: "Karla", sans-serif;
+}
+
+.text__3p {
+    margin-left: 915px;
+    margin-top: -115px;
+    font-family: "Karla", sans-serif;
+    color: #1D1F2E;
+}
+.Always {
+    font-size: 14px;
+}
+.us__coffee {
+    margin-top: 35px;
+    font-size: 23px;
+}
+.Webflow {
+    margin-top: 35px;
+    font-size: 14px;
+}
